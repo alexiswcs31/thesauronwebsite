@@ -1,0 +1,574 @@
+@font-face
+{
+	font-family: "AnironTitres";
+	src: url('pete-klassen_aniron/anicb___.ttf');
+}
+
+@font-face
+{
+	font-family: "PartyBusinessTexte";
+	src: url('nancy-lorenz_party-business/partybusiness.ttf');
+}
+
+@font-face
+{
+	font-family: "TengwarAnnatarSymboles";
+	src: url('tengwar_annatar/tngan.ttf');
+}
+
+.navbar
+{
+	background-color: #FF6300;
+}
+
+.nav-link, h1, .btncontact, .ringcapabilities, td, .ringawesome, .info, .form-control, ul, .moreinfoon, .website, .contactusbtn
+{
+	font-family: "AnironTitres", Arial, sans-serif; 
+}
+
+.carousel-caption, .card-img-overlay, .cardgandalf, .cardaragorn, .cardgimli, .particle1, .particle2, .liengoblin, .lienelves, .card-title, .gollumpart, h6, .rectangle
+{
+	font-family: "PartyBusinessTexte", 'Arial Black', sans-serif;
+}
+
+#navbarNav
+{
+	justify-content: right;
+}
+
+.navbar-light .navbar-toggler
+{
+	border-color: #FF6300;
+}
+
+.nav-link:hover
+{
+	border-bottom: 3px white solid;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	color: white;
+}
+
+.separator:hover
+{
+	border: none;
+}
+
+.carousel-item
+{
+	max-height: 410px;
+}
+
+h2
+{
+	font-size: 60px;
+	text-align: left;
+}
+
+h3
+{
+	text-align: left;
+	margin-bottom: 120px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon
+{
+	height: 50px;
+	width: 50px;
+}
+
+h1
+{
+	font-size: 20px;
+	padding-top: 50px;
+}
+
+.mostwanted, .alreadycaptured, .mostdangerous
+{
+	color: grey;
+}
+
+.mostdangerous:hover, .mostwanted:hover, .alreadycaptured:hover
+{
+	color: #FF6300;
+	border-bottom: 5px #FF6300 solid;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+.mostwanted:hover > .symboleb, .mostdangerous:hover > .symboleb, .alreadycaptured:hover > .symboleb
+{
+	display: inline-block;
+}
+
+.symboleb
+{
+	display: none;
+}
+
+.nav-pills .nav-link
+{
+	border-radius: 0rem;
+}
+
+.symbole, .symboleb
+{
+	font-family: "TengwarAnnatarSymboles", 'Arial Black', sans-serif;
+	color: #FF6300;
+}
+
+.mille
+{
+	color: #FF6300;
+}
+
+.figurecard
+{
+	padding-bottom: 90px;
+}
+
+.card1, .card2, .card3, .card-img-overlay
+{
+	border-color: black;
+	border-left-color: black;
+	border-width: 6px;
+}
+
+.card-img-top
+{
+	opacity: 1;
+}
+
+.card-text-end
+{
+	opacity: 0;
+}
+
+.card-title
+{
+	font-size: 30px;
+}
+
+.titregandalf, .titrearagorn, .titregimli
+{
+	font-size: 65px;
+	color: white;
+	text-align: justify;
+}
+
+.card:hover .card-img-top
+{
+	opacity: 0.7;
+}
+
+.card:hover .titregandalf, .card:hover .titrearagorn, .card:hover .titregimli, .card:hover .rewardgandalf, .card:hover .rewardaragorn, .card:hover .deadgimli
+{
+	opacity: 0;
+}
+
+.ecache
+{
+	opacity: 0;
+}
+
+.card:hover .card-text-end
+{
+	opacity: 1;
+	font-size: 60px;
+	color: #FF6300;
+}
+
+.rewardgandalf, .rewardaragorn
+{
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px 3px;
+}
+
+.card1, .card2, .card3
+{
+	margin: 20px;
+}
+
+@media screen and (max-width: 1192px)
+{
+	.card-img-overlay
+	{
+		float: left;
+	}
+}
+
+.card-img-overlay
+{
+	padding: ;
+}
+
+.cardgandalf, .cardaragorn, .cardgimli
+{
+	background-color: black;
+	color: grey;
+	font-size: 30px;
+}
+
+.deadgimli
+{
+	font-size: 60px;
+	color: #FF6300;
+}
+
+.titregimli
+{
+	text-decoration: line-through;
+	text-decoration-color: #FF6300;
+	text-decoration-style: wavy;
+}
+
+.figurecard
+{
+	margin-bottom: 0px;
+}
+
+#getmyreward
+{
+	color: white;
+}
+
+.particle1
+{
+	color: white;
+}
+
+.contactusbtn
+{
+	margin-bottom: 50px;
+	color: #FF6300;
+	background-color: white;
+	max-width: 100%;
+	height: auto;
+}
+
+.contactusbtn:hover
+{
+	background-color: #FF6300;
+	color: white;
+}
+
+.coin
+{
+	width: 150px;
+	max-width: 100%;
+}
+
+.particle2, .particle1
+{
+	font-size: 25px;
+	padding-left: 10px;
+	text-align: justify;
+}
+
+.elves, .goblin
+{
+	width: 150px;
+	padding-bottom: 50px;
+}
+
+.lienelves, .liengoblin
+{
+	color: #FF6300;
+	font-size: 60px;
+}
+
+h6 a, h6
+{
+	color: black;
+	font-size: 30px;
+}
+
+h6 a
+{
+	text-decoration: underline;
+}
+
+h6 a:hover
+{
+	color: #FF6300;
+}
+
+.rectangle
+{
+	width: 110px;
+	height: 35px;
+	background: url('integration_maquette_finale/bg_dark.png');
+	font-size: 20px;
+	color: #FF6300;
+}
+
+.rectangle:hover
+{
+	color: white;
+}
+
+@media screen and (max-width: 1008px)
+{
+	.elves, .goblin
+	{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 714px)
+{
+	.elves, .goblin
+	{
+		display: flex;
+	}
+
+	.elves:hover, .goblin:hover
+	{
+		opacity: 0.5;
+	}
+
+	h6, h6 a, .lienelves, .liengoblin, .rectangle
+	{
+		display: none;
+	}
+}
+
+.description, .feature, .sauronwithering
+{
+	color: black;
+}
+
+td
+{
+	text-align: center;
+	width: 50%;
+	border: solid;
+	border-left: none;
+	border-right: none;
+}
+
+.borderbottom
+{
+	border-bottom: none;
+}
+
+.borderbottom, .grey
+{
+	color: grey;
+	text-align: left;
+}
+
+.feature, .description, .grey, .borderbottom
+{
+	margin-left: 10px;
+}
+
+.feature, .description
+{
+	border-color: rgba(136, 114, 140, 1);
+	text-align: left;
+	text-indent: -1em;
+}
+
+.grey
+{
+	border-color: rgba(136, 114, 140, 0.3);
+	border-width: 1.5px;
+	border-radius: 1px;
+}
+
+.cardgollum
+{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	border: none;
+}
+
+@media screen and (max-width: 424px)
+{
+	.borderbottom, .grey
+	{
+		color: #FF6300;
+	}
+}
+
+.cardtable
+{
+	padding-left: 56px;
+	padding-right: 56px;
+}
+
+.capabilities
+{
+	border: none;
+}
+
+.gollumpart, .sauronwithering
+{
+	font-size: 30px;
+	color: black;
+}
+
+.signgollum
+{
+	color: grey;
+}
+
+.gollumimg
+{
+	float: right;
+}
+
+.text-primary
+{
+	background-color: #DDDDDD;
+}
+
+.ringawesome, .ringcapabilities
+{
+	background-color: #FF6300;
+	color: white;
+	font-size: 20px;
+}
+
+.imgarmy
+{
+	max-width: 100%;
+	width: 400px;
+}
+
+.weneedyou
+{
+	max-width: 100%;
+	width: 300px;
+	padding-bottom: 30px;
+}
+
+.moreinfoon
+{
+	 color: #FF6300;
+	 padding-left: 100px;
+	 text-align: center;
+	 font-size: 25px;
+}
+
+.blocneedyou
+{
+	max-width: 100%;
+	padding-top: 50px;
+	font-size: 3vw;
+}
+
+@media screen and (max-width: 836px)
+{
+	.moreinfoon, .website
+	{
+		font-size: 3vw;
+	}
+
+	.gollumimg
+	{
+		width: 30vw;
+	}
+}
+
+@media screen and (max-width: 280px)
+{
+	.symbole
+	{
+		display: none;
+	}
+}
+
+.btn-info
+{
+	background: url('integration_maquette_finale/bg_dark.png');
+	color: #FF6300;
+	border: 0;
+	box-shadow: 6px 6px 6px grey;
+	font-size: 25px;
+}
+
+#capturedreward, #thering, #contactus
+{
+	color: white;
+} 
+
+#contactus, #jointhearmy, #thering, #besthunters, #getmyreward, #fellows
+{
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
+
+.formulaire, .aboutthering, .ihavecapturedoneofthem, .cardgollum, .cardtable
+{
+	background: url('integration_maquette_finale/bg_dark.png');
+}
+
+.mordorarmy, .ourbesthunters, .fellows
+{
+	background: url('integration_maquette_finale/bg_light.png');
+}
+
+.map
+{
+	max-width: 100%;
+	height: auto;
+	float: right;
+	padding-bottom: 40px;
+}
+
+@media screen and (max-width: 640px)
+{
+	.map, .weneedyou, .website, .moreinfoon, .btn-info
+	{
+		display: none;
+	}
+
+	.form-group
+	{
+		width: 210%;
+	}
+}
+
+footer
+{
+	background-color: #FF6300;
+}
+
+footer a
+{
+	color: white;
+}
+
+footer a:hover
+{
+	text-decoration: underline;
+	color: white;
+	font-size: 20px;
+}
+
+.liensauron
+{
+	font-size: 15px;
+}
+
+.liensauron:hover
+{
+	font-size: 15px;
+}
+
+hr
+{
+	background-color: white;
+}
+
+.logofindtheprecious
+{
+	max-width: 100%;
+	height: auto;
+}
